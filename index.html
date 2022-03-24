@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weartake </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Weartake</h1>
+    <nav class="navbar">
+      <ul id="listNav">
+        <li data-tag="Todos" class="item-nav">Todos</li>
+        <li data-tag="Acessorios" class="item-nav">Acessórios</li>
+        <li data-tag="Jaquetas" class="item-nav">Jaquetas</li>
+        <li data-tag="Camisetas" class="item-nav">Camisetas</li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <!-------VITRINE DE PRODUTOS-------->
+    <section class="produtos-container">
+      <ul class="lista-de-produtos" id="containerProdutos">        
+      </ul>
+    </section>
+    <!-------BARRA LATERAL-------->
+    <section class="lateral">
+      <div class="barraBusca">
+        <input id="inputBusca" type="text" placeholder="Digite aqui sua pesquisa">
+        <button id="botaoBusca">Pesquisar</button>
+      </div>
+
+        
+      <!-------faixa do carro de compras-------->
+      <h2 class="carrinho-nome">Carrinho de compras</h2>
+
+      <!-------bloco do carro de compras-------->
+      <div class="carrinho">
+        <ul class="adicionados">
+        </ul>
+        <!--<div class="resumoDaCompra">
+          <div class="infos">
+            <span>Quantidade:</span>
+            <p>2</p>
+          </div>
+          <div class="infos">
+            <span>Total:</span>
+            <p>R$140.00</p>
+          </div>
+      </div>-->
+      </div>
+
+    </section>
+  </main>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+  <script src="carrinho.js"></script>
+</body>
+
+</html>

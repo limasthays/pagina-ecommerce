@@ -1,0 +1,254 @@
+body{
+font-family: 'Inter', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+}
+header h1{
+    color: #333333;
+    margin-left: 110px;
+    font-weight: 900;
+    font-size: 24px;
+}
+/*mas também poderia usar 5vw nas margens*/
+header ul{
+    display: flex;
+    margin-right: 110px;
+}
+header ul li{
+    color: #828282; /*grey 50*/
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+header ul li:hover {
+    color: #333333;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 115px;
+    margin-right: 115px;
+    justify-content: center;
+}
+
+.produtos-container{
+    display: flex;
+}
+
+.lista-de-produtos{
+    display: flex;
+    gap: 55px 50px;
+    width: 895px;
+    flex-wrap: wrap;
+}
+.item{
+    box-sizing: border-box;
+    border: 2px solid #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width:260px;    
+}
+
+.item:hover {
+    border: 2px solid #2E245E;
+}
+
+
+.item img{
+    background-color: #F5F5F5;
+    height: 154px;
+}
+
+.item span{
+    font-size: 12px;
+    background-color: #2E245E;
+    height: fit-content;
+    width:fit-content;
+    padding: 8px;
+    margin-left: 15px;
+    color: #ffffff;
+}
+
+.item h3{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.descricao{
+    color: #828282;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.preco{
+    color: #2E245E;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.item a{
+    color: #828282;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.item a:hover{
+    color: #2E245E;
+}
+
+
+
+.barraBusca{
+    display: flex;
+}
+.lateral input{
+    width: 246px;
+    height: 50px;
+    background-color: #F5F5F5;
+    border: 0px;
+}
+
+.lateral input::placeholder{
+    padding: 10px;
+    color: #828282;
+}
+
+.lateral button{
+    width: 96px;
+    height: 50px;
+    background-color: #6B54DE;
+    color: white;
+    border: 0px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.carrinho-nome{
+    color: white;
+    background-color: #6B54DE;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carrinho{
+    background-color: #F5F5F5;
+    width: 356px;
+    min-height: 344px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.ativo{
+    color: #6B54DE;
+    font-weight: bold;
+}
+
+.adicionados{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.estilo1{
+    color: #333333;
+    font-size: 22px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.estilo2{
+    color: #828282;
+    font-size: 12px;
+    align-self: center;
+}
+
+.adicionados li{
+    display: flex;
+    height: 100px;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+
+.lado{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.adicionados img{
+    width: 80px;
+    height: 80px;
+    
+}
+
+.adicionados h3{
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.adicionados span{
+    color: #2E245E;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.adicionados a{
+    color: #828282;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.resumoDaCompra{
+    margin-top: 30px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20px;
+    gap: 25px;
+
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*aquelas letrinhas que ficam dentro de resumo da compra*/
+.resumoNomes{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.resumoNumeros{
+    color: #828282;
+    font-size: 16px;
+}
