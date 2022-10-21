@@ -1,6 +1,6 @@
-oie! :)  
-fiz essa página para a atividade final do módulo do curso de front-end que estou fazendo.  
-ainda tem algumas coisas que eu tenho que mudar nela, mas ainda não sei como... de qualquer forma,  
-estou feliz com esse começo.  
+Olá! :)  
+Fiz essa página para a atividade final do módulo do curso de front-end da Kenzie Academy.  
+A página foi feita com ferramentas puras, sem frameworks: HTML, CSS e Javascript vanilla.
+Ainda não está perfeita, mas gostei muito do resultado. 
   
-você pode conferir a página implementada [aqui.](https://limasthays.github.io/pagina-ecommerce/)
+Você pode conferir a página implementada [aqui.](https://limasthays.github.io/pagina-ecommerce/)
